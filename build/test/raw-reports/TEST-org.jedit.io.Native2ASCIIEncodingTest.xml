@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ws.darkzone.un" name="org.jedit.io.Native2ASCIIEncodingTest" skipped="0" tests="108" time="0.421" timestamp="2017-03-16T17:10:06">
+  <properties>
+    <property name="config.lib.dir" value="lib" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ivy.retrieve.pattern.ivy.instance" value="/home/reynolds/src/j/jedit.svn/lib/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="java.vendor.url.ivy.instance" value="http://java.oracle.com/" />
+    <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.project.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="ivy.resolve.default.type.filter" value="*" />
+    <property name="java.home" value="/usr/java/jdk1.8.0_111/jre" />
+    <property name="ivy.configurations.ivy.instance" value="*" />
+    <property name="ivy.basedir.ivy.instance" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_111/jre/lib/endorsed" />
+    <property name="java.class.path.ivy.instance" value="/usr/share/java/ant.jar:/usr/share/java/ant-launcher.jar:/usr/share/java/jaxp_parser_impl.jar:/usr/share/java/xml-commons-apis.jar:/usr/share/java/antlr.jar:/usr/share/java/ant/ant-antlr.jar:/usr/share/java/bcel.jar:/usr/share/java/ant/ant-apache-bcel.jar:/usr/share/java/rhino.jar:/usr/share/java/bsf.jar:/usr/share/java/ant/ant-apache-bsf.jar:/usr/share/java/log4j.jar:/usr/share/java/ant/ant-apache-log4j.jar:/usr/share/java/oro.jar:/usr/share/java/ant/ant-apache-oro.jar:/usr/share/java/regexp.jar:/usr/share/java/ant/ant-apache-regexp.jar:/usr/share/java/xml-commons-resolver.jar:/usr/share/java/ant/ant-apache-resolver.jar:/usr/share/java/xalan-j2.jar:/usr/share/java/xalan-j2-serializer.jar:/usr/share/java/ant/ant-apache-xalan2.jar:/usr/share/java/apache-commons-logging.jar:/usr/share/java/ant/ant-commons-logging.jar:/usr/share/java/apache-commons-net.jar:/usr/share/java/ant/ant-commons-net.jar:/usr/share/java/jarjar/jarjar.jar:/usr/share/java/objectweb-asm/asm.jar:/usr/share/java/objectweb-asm/asm-commons.jar:/usr/share/java/javamail/dsn.jar:/usr/share/java/javamail/gimap.jar:/usr/share/java/javamail/imap.jar:/usr/share/java/javamail/javax.mail-api.jar:/usr/share/java/javamail/javax.mail.jar:/usr/share/java/javamail/mail.jar:/usr/share/java/javamail/mailapi.jar:/usr/share/java/javamail/pop3.jar:/usr/share/java/javamail/smtp.jar:/usr/share/java/ant/ant-javamail.jar:/usr/share/java/jdepend.jar:/usr/share/java/ant/ant-jdepend.jar:/usr/share/java/ant/ant-jmf.jar:/usr/share/java/jsch.jar:/usr/share/java/ant/ant-jsch.jar:/usr/share/java/junit.jar:/usr/share/java/hamcrest/core.jar:/usr/share/java/ant/ant-junit.jar:/usr/share/java/junit.jar:/usr/share/java/hamcrest/core.jar:/usr/share/java/ant/ant-junit4.jar:/usr/share/java/ant/ant-swing.jar:/usr/share/java/ant/ant-testutil.jar:/usr/java/latest/lib/tools.jar:/usr/share/ant/lib/ant-bootstrap.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-apache-oro.jar" />
+    <property name="ivy.home" value="/home/reynolds/.ivy2" />
+    <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ivy.dep.file" value="ivy.xml" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.lib.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn/lib" />
+    <property name="java.version" value="1.8.0_111" />
+    <property name="ivy.conf.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn/build" />
+    <property name="sun.boot.library.path.ivy.instance" value="/usr/java/jdk1.8.0_111/jre/lib/amd64" />
+    <property name="ivy.done" value="true" />
+    <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="ivy.module" value="jedit" />
+    <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/reynolds/src/j/jedit.svn/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="os.name.ivy.instance" value="Linux" />
+    <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/reynolds/.ivy2" />
+    <property name="ivy.default.always.check.exact.revision" value="false" />
+    <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/home/reynolds/src/j/jedit.svn/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="user.name" value="reynolds" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ivy.shared.default.root.ivy.instance" value="/home/reynolds/.ivy2/shared" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.home.ivy.instance" value="/usr/share/ant" />
+    <property name="file.encoding.ivy.instance" value="UTF-8" />
+    <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+    <property name="ivy.conf.file.ivy.instance" value="/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="java.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="lib.dir" value="/home/reynolds/src/j/jedit.svn/lib" />
+    <property name="sun.cpu.isalist.ivy.instance" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="user.timezone" value="" />
+    <property name="java.endorsed.dirs.ivy.instance" value="/usr/java/jdk1.8.0_111/jre/lib/endorsed" />
+    <property name="slackware.target.java.version" value="1_8_0" />
+    <property name="path.separator" value=":" />
+    <property name="config.dist.dir" value="dist" />
+    <property name="mac.target.java.version" value="1.8+" />
+    <property name="java.class.version.ivy.instance" value="52.0" />
+    <property name="ivy.default.conf.dir" value="jar:file:/home/reynolds/src/j/jedit.svn/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.runtime.name.ivy.instance" value="Java(TM) SE Runtime Environment" />
+    <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="jedit.version.final" value="true" />
+    <property name="win.filename" value="jedit5.4.0install" />
+    <property name="ivy.targets.copied" value="true" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.jedit.io.Native2ASCIIEncodingTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/reynolds/src/j/jedit.svn/build/test/raw-reports/TEST-org.jedit.io.Native2ASCIIEncodingTest.xml crashfile=/home/reynolds/src/j/jedit.svn/junitvmwatcher686099187996100210.properties propsfile=/home/reynolds/src/j/jedit.svn/junit8690774530453760710.properties" />
+    <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ant.file" value="/home/reynolds/src/j/jedit.svn/build.xml" />
+    <property name="ivy.distrib.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn/distrib" />
+    <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+    <property name="sun.arch.data.model.ivy.instance" value="64" />
+    <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn/build/artifacts" />
+    <property name="ivy.settings.file" value="ivysettings.xml" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+    <property name="ivy.cache.ttl.default" value="10s" />
+    <property name="user.language" value="en" />
+    <property name="user.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="ivy.home.ivy.instance" value="/home/reynolds/.ivy2" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.specification.version.ivy.instance" value="1.8" />
+    <property name="ant.file.type" value="file" />
+    <property name="ivy.build.artifacts.dir" value="/home/reynolds/src/j/jedit.svn/build/artifacts" />
+    <property name="src.archive.filename" value="jedit5.4.0source.tar.bz2" />
+    <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+    <property name="ivy.status" value="integration" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ivy.lib.dir" value="/home/reynolds/src/j/jedit.svn/lib" />
+    <property name="jedit.build.number" value="05.04.99.00" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/home/reynolds/src/j/jedit.svn/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="java.vm.version.ivy.instance" value="25.111-b14" />
+    <property name="user.name.ivy.instance" value="reynolds" />
+    <property name="config.build.compilerarg" value="-Xlint:unchecked -Xlint:finally -Xlint:fallthrough -Xmaxwarns 1000" />
+    <property name="ivy.cache.dir" value="/home/reynolds/.ivy2/cache" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="jedit.plugins.artifact.patterns" value="&lt;artifact pattern=&quot;jar:http://cytranet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://excellmedia.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://freefr.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://heanet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://internode.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://iweb.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://jaist.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://kent.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://liquidtelecom.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://nchc.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://ncu.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://netcologne.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://netix.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://pilotfiber.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://superb-dca2.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://superb-sea2.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://svwh.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://tenet.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://ufpr.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;&lt;artifact pattern=&quot;jar:http://vorboss.dl.sourceforge.net/project/jedit-plugins/[artifact]/[revision]/[artifact]-[revision]-bin.zip!/[artifact].jar&quot; /&gt;&#xa;" />
+    <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+    <property name="jar.location" value="/home/reynolds/src/j/jedit.svn/build" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on February 3 2016" />
+    <property name="java.home.ivy.instance" value="/usr/java/jdk1.8.0_111/jre" />
+    <property name="java.vm.vendor.ivy.instance" value="Oracle Corporation" />
+    <property name="ivy.default.settings.dir" value="jar:file:/home/reynolds/src/j/jedit.svn/lib/ivy/ivy-2.2.0.jar!/org/apache/ivy/core/settings" />
+    <property name="jedit.version" value="5.4.0" />
+    <property name="ivy.configurations" value="*" />
+    <property name="ivy.settings.url" value="file:/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="os.name" value="Linux" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+    <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/reynolds/src/j/jedit.svn/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="manual.filename.prefix" value="jedit5.4.0manual-" />
+    <property name="ivy.checksums" value="sha1,md5" />
+    <property name="ant.file.jedit" value="/home/reynolds/src/j/jedit.svn/build.xml" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ivy.jar.file" value="/home/reynolds/src/j/jedit.svn/lib/ivy/ivy-2.2.0.jar" />
+    <property name="ivy.log.modules.in.use" value="false" />
+    <property name="java.runtime.version.ivy.instance" value="1.8.0_111-b14" />
+    <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+    <property name="ivy.version" value="2.2.0" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="ivy.conf.url" value="file:/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="java.vm.name.ivy.instance" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="os.version.ivy.instance" value="4.9.12-200.fc25.x86_64" />
+    <property name="line.separator.ivy.instance" value="&#xa;" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="sun.cpu.endian.ivy.instance" value="little" />
+    <property name="mac.disk.image.filename" value="jedit5.4.0install.dmg" />
+    <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+    <property name="basedir" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="java.class.version" value="52.0" />
+    <property name="ivy.settings.url.ivy.instance" value="file:/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="path.separator.ivy.instance" value=":" />
+    <property name="sun.boot.class.path.ivy.instance" value="/usr/java/jdk1.8.0_111/jre/lib/resources.jar:/usr/java/jdk1.8.0_111/jre/lib/rt.jar:/usr/java/jdk1.8.0_111/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_111/jre/lib/jsse.jar:/usr/java/jdk1.8.0_111/jre/lib/jce.jar:/usr/java/jdk1.8.0_111/jre/lib/charsets.jar:/usr/java/jdk1.8.0_111/jre/lib/jfr.jar:/usr/java/jdk1.8.0_111/jre/classes" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="ivy.jar.filename" value="ivy-2.2.0.jar" />
+    <property name="config.ivy.version" value="2.2.0" />
+    <property name="dist.jar.filename" value="jedit5.4.0install.jar" />
+    <property name="ivy.resolved.configurations" value="default, master, compile, runtime, test, provided, sources, javadoc, ant-contrib, docbook, fop, launch4j, scripting, default-plugins" />
+    <property name="config.build.deprecation" value="true" />
+    <property name="ivy.deliver.ivy.pattern" value="/home/reynolds/src/j/jedit.svn/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_111/jre/lib/amd64" />
+    <property name="build.dir" value="/home/reynolds/src/j/jedit.svn/build" />
+    <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+    <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="ivy.jar.present" value="true" />
+    <property name="awt.toolkit.ivy.instance" value="sun.awt.X11.XToolkit" />
+    <property name="ivy.basedir" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs.ivy.instance" value="/usr/java/jdk1.8.0_111/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+    <property name="sun.os.patch.level.ivy.instance" value="unknown" />
+    <property name="file.encoding.pkg.ivy.instance" value="sun.io" />
+    <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.resolver.default.check.modified" value="false" />
+    <property name="ivy.settings.file.ivy.instance" value="/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="ivy.nb.targets.copied" value="1" />
+    <property name="ant.project.name" value="jedit" />
+    <property name="ivy.cache.dir.ivy.instance" value="/home/reynolds/.ivy2/cache" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="ivy.status.ivy.instance" value="integration" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="file.separator.ivy.instance" value="/" />
+    <property name="ivy.deps.changed" value="false" />
+    <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_111/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="ivy.local.default.root.ivy.instance" value="/home/reynolds/.ivy2/local" />
+    <property name="os.version" value="4.9.12-200.fc25.x86_64" />
+    <property name="user.home" value="/home/reynolds" />
+    <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="ivy.local.default.root" value="/home/reynolds/.ivy2/local" />
+    <property name="ivy.organisation" value="org.jedit" />
+    <property name="user.dir" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="ant.library.dir.ivy.instance" value="/usr/share/ant/lib" />
+    <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="java.vm.info.ivy.instance" value="mixed mode" />
+    <property name="ivy.publish.src.artifacts.pattern" value="/home/reynolds/src/j/jedit.svn/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+    <property name="sun.java.command.ivy.instance" value="org.apache.tools.ant.launch.Launcher -cp " />
+    <property name="ivy.distrib.dir" value="/home/reynolds/src/j/jedit.svn/distrib" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ivy.revision" value="working@ws.darkzone.un" />
+    <property name="user.timezone.ivy.instance" value="America/Chicago" />
+    <property name="java.vm.version" value="25.111-b14" />
+    <property name="config.build.debuglevel" value="lines,vars,source" />
+    <property name="ivy.default.ivy.user.dir" value="/home/reynolds/.ivy2" />
+    <property name="java.class.path" value="/home/reynolds/src/j/jedit.svn/lib/test/hamcrest-core.jar:/home/reynolds/src/j/jedit.svn/lib/test/hamcrest-library.jar:/home/reynolds/src/j/jedit.svn/lib/test/jsr305.jar:/home/reynolds/src/j/jedit.svn/lib/test/junit-dep.jar:/home/reynolds/src/j/jedit.svn/build/classes/core:/home/reynolds/src/j/jedit.svn/build/classes/test:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="user.home.ivy.instance" value="/home/reynolds" />
+    <property name="basedir.ivy.instance" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="ivy.conf.file" value="/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="ivy.jar.dir" value="/home/reynolds/src/j/jedit.svn/lib/ivy" />
+    <property name="java.awt.graphicsenv.ivy.instance" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.vendor.url.bug.ivy.instance" value="http://bugreport.sun.com/bugreport/" />
+    <property name="java.vm.specification.version.ivy.instance" value="1.8" />
+    <property name="dist.dir" value="/home/reynolds/src/j/jedit.svn/dist" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="init.done" value="true" />
+    <property name="classes.dir" value="/home/reynolds/src/j/jedit.svn/build/classes" />
+    <property name="java.awt.printerjob.ivy.instance" value="sun.print.PSPrinterJob" />
+    <property name="ivy.settings.dir.ivy.instance" value="/home/reynolds/src/j/jedit.svn/build" />
+    <property name="ant.core.lib" value="/usr/share/java/ant/ant.jar" />
+    <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ivy.settings.dir" value="/home/reynolds/src/j/jedit.svn/build" />
+    <property name="file.separator" value="/" />
+    <property name="user.language.ivy.instance" value="en" />
+    <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+    <property name="user.country.ivy.instance" value="US" />
+    <property name="ivy.conf.url.ivy.instance" value="file:/home/reynolds/src/j/jedit.svn/build/ivysettings.xml" />
+    <property name="java.runtime.version" value="1.8.0_111-b14" />
+    <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_111/jre/lib/resources.jar:/usr/java/jdk1.8.0_111/jre/lib/rt.jar:/usr/java/jdk1.8.0_111/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_111/jre/lib/jsse.jar:/usr/java/jdk1.8.0_111/jre/lib/jce.jar:/usr/java/jdk1.8.0_111/jre/lib/charsets.jar:/usr/java/jdk1.8.0_111/jre/lib/jfr.jar:/usr/java/jdk1.8.0_111/jre/classes" />
+    <property name="ivy.conf.dir" value="/home/reynolds/src/j/jedit.svn/build" />
+    <property name="config.build.dir" value="build" />
+    <property name="ivy.retrieve.pattern" value="/home/reynolds/src/j/jedit.svn/lib/[conf]/[artifact](-[classifier]).[ext]" />
+    <property name="textAreaPackage" value="/home/reynolds/src/j/textarea" />
+    <property name="jar.filename" value="jedit.jar" />
+    <property name="user.country" value="US" />
+    <property name="ivy.shared.default.root" value="/home/reynolds/.ivy2/shared" />
+    <property name="java.version.ivy.instance" value="1.8.0_111" />
+    <property name="ant.file.type.jedit" value="file" />
+    <property name="ivy.resolved.file" value="/home/reynolds/src/j/jedit.svn/ivy.xml" />
+    <property name="target.java.version" value="1.8" />
+    <property name="os.arch.ivy.instance" value="amd64" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="ivy.project.dir" value="/home/reynolds/src/j/jedit.svn" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="config.build.nowarn" value="false" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+  </properties>
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.013" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="differentReadMethodsShouldHaveACommonEscapeSequenceHandling" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldThrowExceptionIfToSkipIsNegative" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldNotDoAnythingIfToSkipIsZero" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldSkipGivenAmountIfAvailable" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldSkipAllIfToSkipIsGreaterThanInputLength" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="multipleSkipCallsShouldWork" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="textReaderWithNullAsClassParameterShouldWork" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldBeAbleToDecodeWhatWriterHasEncoded" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldReadSingleCharactersIfWriterAddedAnEscapingBackslash" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldDecodeIfWriterHasWrittenEscapeSequenceAsSingleCharacters" time="0.003" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_char_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_ShouldEncodeNonASCIICharactersCorrectly" time="0.002" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_char_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNullCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNullCorrectly" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMissingInputAfterU" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMissingInputAfterU" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMalformedInput" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMalformedInput" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInput" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMalformedInput" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOF" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleEOF" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleEOF" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOFAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOFAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleEOFAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleEOFAfterBackslash" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.002" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequenceWithThrottledInputStream" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMalformedInputWithThrottledReader" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMalformedInputWithThrottledReader" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMalformedInputWithThrottledReader" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_shouldReadOnAfterCollapsingEscapeSequences" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.004" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="differentReadMethodsShouldBeUsableOnTheSameStream" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequence" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequence" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOF" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMissingInputAfterU" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInput" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInput" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInput" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInput" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptIncompleteEscapeSequence" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptIncompleteEscapeSequence" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMissingInputAfterU" time="0.001" />
+  <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMissingInputAfterU" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
