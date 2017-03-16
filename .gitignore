@@ -1,3 +1,7 @@
+#
+# Force git(1) to ignore all that svn(1) cruft.
+.svn
+#
 *.class
 
 # Mobile Tools for Java (J2ME)
